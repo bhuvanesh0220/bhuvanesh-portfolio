@@ -1,0 +1,209 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <link rel="stylesheet" href="Css/style.css">
+        <script src="Js/common.js"></script>
+        <title>Bhuvanesh J | Software Engineer</title>
+    </head>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <body>
+        <nav>
+            <div class="circle-img">
+                <img src="./Images/Bhuvanesh_photo.jpg" alt="Myself"/>
+            </div>
+                <h1 id="web-name">Bhuvanesh</h1>
+            <ul id="ul-dropdown">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a class="nav-link" style="cursor: pointer;" onclick="fngetInfo();">Download</a></li>
+            </ul>
+            <button class="burger-menu" id="burger-menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+            </button>
+        </nav>
+        <section class="hero" id="about">
+            <img src="./Images/about.jpg" alt="abt-img" loading="lazy" class="hero-img">
+            <div class="abt-animate">
+                <h2 class="abt-title">About Me</h2>
+                <p class="abt-text">
+                  Welcome, fellow explorer! Step into the digital realm crafted with care by a seasoned Software Engineer.
+                   With 2 years of Java development expertise under my belt, I'm here to guide you through a landscape where
+                    innovation meets efficiency. Known for my knack for organization, I swiftly adapt and deliver results that 
+                    speak volumes. From tackling challenges independently to ensuring timely project completion, I thrive with 
+                    minimal supervision. Let's embark on this journey together, where every line of code tells a story of excellence 
+                    and every challenge is an opportunity to shine! 
+                </p>
+
+            </div>
+        </section>
+        <section class="more-about">
+            <h2>More About Me</h2>
+            <p>
+                I'm a dedicated software engineer with a focus on insurance-based projects. 
+                My expertise lies at the intersection of technology and insurance, where I 
+                leverage my skills to create impactful solutions.
+            </p>
+            <p>
+                In the realm of insurance, I've led numerous projects aimed at enhancing 
+                operational efficiency and accuracy. From designing intuitive underwriting platforms 
+                to implementing sophisticated risk assessment algorithms, I'm committed to driving positive 
+                change in this dynamic industry.
+            </p>
+            <p>
+                I firmly believe in collaboration and staying ahead of industry trends. 
+                By actively engaging with stakeholders and keeping a pulse on emerging technologies, 
+                I ensure that my solutions are not only effective but also aligned with the evolving needs 
+                of insurance businesses.
+            </p>
+          </section>
+          <section class="skills" id="skills">
+            <h2 class="skill-header">My Top Skills</h2>
+      
+            <div class="skills-wrapper">
+              <div class="first-set animate__animated animate__pulse">
+                <img
+                  src="./Images/html5-logo.png"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="./Images/css-3-logo.png"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="./Images/JavaScript.png"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+              </div>
+      
+              <div class="second-set animate__animated animate__pulse">
+                <img
+                  src="./Images/jsp-logo.png"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="./Images/JQuery-logo.jpg"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="./Images/java-logo.png"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+              </div>
+              <div class="second-set animate__animated animate__pulse">
+                <img
+                  src="./Images/Spring-Boot.png"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="./Images/oracle.png"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="./Images/apache_struts_logo.png"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+                <img
+                  src="./Images/jasperReport-logo.jpg"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+                />
+              </div>
+            </div>
+          </section>
+          <section class="contact" id="contact">
+            <h2>Get In Touch With Me</h2>
+            <div class="contact-form-container">
+              <div class="contact-form">
+                <form id="myForm" action="https://formspree.io/f/xleqvwaq" method="POST">
+                  <div class="form-control">
+                    <label for="name">Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="sender-name"
+                      placeholder="Enter Your Name"
+                      class="input-field"
+                      required
+                    />
+                  </div>
+                  <div class="form-control">
+                    <label for="email">Email</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="sender-email"
+                      placeholder="Enter Your Email"
+                      class="input-field"
+                      required
+                    />
+                  </div>
+                  <div class="form-control">
+                    <label for="message">Message</label>
+                    <textarea
+                      id="message"
+                      cols="60"
+                      rows="10"
+                      placeholder="Enter Your Message"
+                      name="message"
+                      class="input-field"
+                      required
+                    ></textarea>
+                  </div>
+                  <input
+                    type="submit"
+                    value="Submit"
+                    id="submit-btn"
+                    class="submit-btn"
+                  />
+                </form>
+              </div>
+            </div>
+          </section>
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/welcome-bhuvanesh/" target="_blank"
+              ><img
+                src="./Images/logo-linkedin.gif"
+                alt="Linkedin"
+                loading="lazy"
+                class="socicon"
+            /></a>
+            <a href="https://github.com/bhuvanesh0220" target="_blank"
+              ><img src="./Images/GitHub-logo.gif" alt="Github" class="socicon"
+            /></a>
+            </div>
+    </body>
+    <footer>
+      <p class="copy">&copy; Copyright <span id="year"></span>   
+        <a href="https://twitter.com/imbhuvanesh02" target="_blank">Bhuvanesh J</a>
+      </p>
+</footer>
+<i class="scroll-up" id="scroll-up"
+      ><img
+        src="./Images/up-arrow.gif"
+        class="socicon up-arrow"
+        alt="scroll-up"
+    /></i>
+</html>
